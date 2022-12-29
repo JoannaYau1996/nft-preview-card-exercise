@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background-color: #0d192b;
+}
+
+.card {
+  width: 300px;
+  height: 550px;
+  background-color: #14253d;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.info {
+  width: 100%;
+}
+
+.info a {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 20px;
+  padding-top: 20px;
+  color: white;
+}
+
+p {
+  margin: 25px 0 25px 0;
+  font-weight: 300;
+}
+
+.imgs {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+.back {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.hover-color {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(153, 255, 252, 0.656);
+  border-radius: 15px;
+  display: none;
+}
+
+.eye {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 40px;
+  display: none;
+  z-index: 111;
+}
+
+.small-info {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ul {
+  width: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+
+p,
+li {
+  font-size: 18px;
+  color: #8bacda;
+}
+
+.left {
+  color: #00fff7;
+  font-weight: 700;
+}
+
+hr {
+  color: #2f415b;
+  margin-bottom: 5px;
+}
+
+.review img {
+  width: 30x;
+  height: 30px;
+  border-radius: 50%;
+  border: solid #fff 3px;
+  margin-right: 15px;
+}
+
+.review a {
+  text-decoration: none;
+  margin: 20px 0 20px 0;
+  color: white;
+}
+
+a:hover {
+  color: #00fff7;
+}
+
+.imgs:hover .eye {
+  display: block;
+}
+
+.imgs:hover .hover-color {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    width: 250px;
+    height: 500px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
