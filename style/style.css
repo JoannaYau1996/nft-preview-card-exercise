@@ -26,6 +26,8 @@
   background-color: #14253d;
   border-radius: 15px;
   padding: 30px;
+  -webkit-box-shadow: 1px 30px 30px rgba(4, 12, 22, 0.429);
+          box-shadow: 1px 30px 30px rgba(4, 12, 22, 0.429);
 }
 
 .info {
